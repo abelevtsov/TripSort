@@ -12,7 +12,7 @@ namespace TripSort
         /// что для каждой карточки в упорядоченном списке пункт назначения
         /// совпадает с пунктом отправления в следующей карточке.
         /// </summary>
-        /// <param name="source">Список карточек для сорировки</param>
+        /// <param name="source">Список карточек для сортировки</param>
         /// <returns>Отсортированный список карточек</returns>
         /// <remarks>Сложность алгоритма O(N ^ 2)</remarks>
         public static IEnumerable<T> Sort<T>(IEnumerable<T> source) where T : Trip
